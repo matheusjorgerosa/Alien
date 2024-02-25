@@ -97,7 +97,7 @@ function create() {
         moeda.setVelocity(0, 0);
         plataforma2.setVelocity(0, 0);
     }, null, this);
-    moeda.setBounce(0.7);
+    moeda.setBounce(0.5);
 
     // Adiciona o placar com a pontuação atual do jogador
     placar = this.add.text(50, 50, 'Moedas: ' + pontuacao, {fontSize: '45px', fill: "#495613"});
